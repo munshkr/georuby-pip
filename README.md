@@ -7,7 +7,7 @@
 
 ## Usage
 
-  * To compile extension do:
+To compile extension do:
   
-	ruby extconf.rb
-	make
+  $ ruby extconf.rb
+  $ make
