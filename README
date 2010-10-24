@@ -1,0 +1,12 @@
+== Description
+
+  * Ruby C-extension for finding if a point lies inside a polygon
+  * Original ray casting algorithm taken from (here)[http://www.visibone.com/inpoly/]
+  * An extension for GeoRuby is provided
+
+== Usage
+
+  * To compile extension do:
+  
+    $ ruby extconf.rb
+    $ make
