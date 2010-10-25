@@ -3,8 +3,7 @@
 require "geo_ruby"
 require "test/unit"
 
-$LOAD_PATH << File.expand_path(File.dirname(__FILE__))
-require "point_in_polygon"
+require File.expand_path(File.dirname(__FILE__) + "/../ext/point_in_polygon")
 
 
 class TestPip < Test::Unit::TestCase

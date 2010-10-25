@@ -3,8 +3,7 @@
 require "geo_ruby"
 require "test/unit"
 
-$LOAD_PATH << File.expand_path(File.dirname(__FILE__))
-require "georuby_pip"
+require File.expand_path(File.dirname(__FILE__) + "/../lib/georuby_pip")
 
 
 class TestGeorubyPip < Test::Unit::TestCase
