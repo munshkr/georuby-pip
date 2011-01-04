@@ -8,6 +8,6 @@
 ## Usage
 
 To compile extension do:
-  
+ 
   $ ruby extconf.rb
   $ make

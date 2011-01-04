@@ -49,7 +49,7 @@ class TestPip < Test::Unit::TestCase
 
   def test_polygon_with_three_points
     assert_nothing_raised do
-      PointInPolygon.point_in_polygon?([[-3.015747, 16.774302], 
+      PointInPolygon.point_in_polygon?([[-3.015747, 16.774302],
                                         [-3.661194, 16.405788],
                                         [-3.389282, 16.252912]], 1.0, 2.0)
     end
@@ -57,22 +57,22 @@ class TestPip < Test::Unit::TestCase
 
   def test_polygon_with_an_invalid_point
     assert_raise(TypeError) do
-      PointInPolygon.point_in_polygon?([[-3.015747, 16.774302], 
+      PointInPolygon.point_in_polygon?([[-3.015747, 16.774302],
                                         [-3, 16.405788],
                                         [-3.389282, 16.252912]], 1.0, 2.0)
     end
     assert_raise(TypeError) do
-      PointInPolygon.point_in_polygon?([[-3.015747, 16.774302], 
+      PointInPolygon.point_in_polygon?([[-3.015747, 16.774302],
                                         [16.405788],
                                         [-3.389282, 16.252912]], 1.0, 2.0)
     end
     assert_raise(TypeError) do
-      PointInPolygon.point_in_polygon?([[-3.015747, 16.774302], 
+      PointInPolygon.point_in_polygon?([[-3.015747, 16.774302],
                                         [16.405788, nil],
                                         [-3.389282, 16.252912]], 1.0, 2.0)
     end
     assert_raise(TypeError) do
-      PointInPolygon.point_in_polygon?([[-3.015747, 16.774302], 
+      PointInPolygon.point_in_polygon?([[-3.015747, 16.774302],
                                         [16.405788, 2.3, 23.0],
                                         nil], 1.0, 2.0)
     end
