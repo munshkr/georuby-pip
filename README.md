@@ -1,3 +1,5 @@
+# Point-in-Polygon extension for GeoRuby
+
 ## Description
 
   * Ruby C-extension for finding if a point lies inside a polygon
@@ -9,5 +11,5 @@
 
 To compile extension do:
  
-  $ ruby extconf.rb
-  $ make
+    $ ruby extconf.rb
+    $ make
