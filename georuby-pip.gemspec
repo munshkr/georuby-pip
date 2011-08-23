@@ -14,6 +14,6 @@ Gem::Specification.new do |s|
   s.add_dependency('GeoRuby', '~> 1.3.4')
   s.add_development_dependency('rake-compiler', '~> 0.7.9')
 
-  s.files = FileList['lib/**/*.rb', 'test/**/*'].to_a
+  s.files = FileList['lib/**/*.rb', 'test/**/*.rb', 'ext/**/*'].to_a
   s.extensions = FileList['ext/**/extconf.rb']
 end
