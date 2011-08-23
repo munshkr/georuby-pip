@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
-require "geo_ruby"
 require "test/unit"
 
-require File.expand_path(File.dirname(__FILE__) + "/../ext/point_in_polygon")
+require "geo_ruby"
+require "point_in_polygon"
 
 
 class TestPip < Test::Unit::TestCase

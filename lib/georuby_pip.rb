@@ -1,4 +1,4 @@
-require File.expand_path(File.dirname(__FILE__) + "/../ext/point_in_polygon")
+require File.expand_path(File.dirname(__FILE__) + "/point_in_polygon")
 
 module GeoRuby::SimpleFeatures
 

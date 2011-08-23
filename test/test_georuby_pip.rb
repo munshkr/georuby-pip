@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
-require "geo_ruby"
 require "test/unit"
 
-require File.expand_path(File.dirname(__FILE__) + "/../lib/georuby_pip")
+require "geo_ruby"
+require "georuby_pip"
 
 
 class TestGeorubyPip < Test::Unit::TestCase
